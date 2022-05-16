@@ -109,8 +109,28 @@ var questions = [
     {
         question: "test question 2",
         answers: [
-            { value: "fefe", correct: true },
-            { value: "fefe", correct: false }
+            { value: "Answer 1", correct: true },
+            { value: "Answer 2", correct: false },
+            { value: "Answer 3", correct: false },
+            { value: "Answer 4", correct: false }
+        ]
+    },
+    {
+        question: "test question 3",
+        answers: [
+            { value: "Answer 1", correct: true },
+            { value: "Answer 2", correct: false },
+            { value: "Answer 3", correct: false },
+            { value: "Answer 4", correct: false }
+        ]
+    },
+    {
+        question: "test question 4",
+        answers: [
+            { value: "Answer 1", correct: true },
+            { value: "Answer 2", correct: false },
+            { value: "Answer 3", correct: false },
+            { value: "Answer 4", correct: false }
         ]
     }
 ]
