@@ -8,19 +8,34 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <main class="page-content">
+        <div class="container">
+            <button id="dev-reset" class="">RESET</button>
+            <div id="info-container" class="info-container hidden">
+                <div id="question-count">Question: 1/10</div>
+                <div id="answer-response" class=""></div>
+                <div id="player-score">Score: 0</div>
+            </div>
+            <div id="question-container" class="hidden">
+                <div id="question">Question Text</div>
+                <div id="answer-btns" class="answer-btns">
 
-    </header>
-
-
-    <main>
-
+                </div>
+            </div>
+            <div id="start-container" class="">
+                <div><h1>Coding Quiz</h1></div>
+                <div id="control-btns" class="control-btns">
+                    <button class="start-btn btn" id="start-btn">Start</button>
+                    <button class="score-btn btn" id="score-btn">High Scores</button>
+                </div>
+                
+            </div>
+            <div id="score-container" class="hidden">
+                <div><h1>High Scores</h1></div>
+                <div id="scores"></div>
+            </div>
+        </div>
     </main>
-
-
-    <footer>
-
-    </footer> 
     
     <script src="./assets/js/script.js"></script>
 </body>
